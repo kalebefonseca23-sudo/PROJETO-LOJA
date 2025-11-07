@@ -1,3 +1,10 @@
+#banner{
+    height: 480px; ;
+    width: 900px; ;
+}
+
+
+
 *{
 background-color: #1a1a1a;
 padding: 0%;
@@ -6,5 +13,18 @@ margin: 0;
         text-decoration: none;
         color:#ffffff;
         font-size: 20px;
-
+padding: 20px;
     }
+
+    li{
+        list-style: none; /*remover os pontos daq lista*/
+    }
+ul{
+display: flex; /*ativar propriedade de alinhamento*/
+
+flex-direction: row;
+}
+#logo{
+    height:100px; ;
+    width: 110px; ;
+}
